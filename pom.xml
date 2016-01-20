@@ -22,9 +22,9 @@
 
     <repositories>
         <repository>
-            <id>srs-maven2</id>
-            <name>SRS Maven 2 central repository</name>
-            <url>http://srs.slac.stanford.edu/nexus/content/groups/srs-maven2-public/</url>
+            <id>lsst-dh-maven2-public</id>
+            <name>LSST Data Handling Maven Central repository</name>
+            <url>http://srs.slac.stanford.edu/nexus/content/groups/lsst-dh-maven2-public/</url>
         </repository>
     </repositories>
 
