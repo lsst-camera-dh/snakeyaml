@@ -9,7 +9,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.yaml</groupId>
     <artifactId>snakeyaml</artifactId>
-    <version>1.15-lsst-dh-SNAPSHOT</version>
+    <version>1.15-lsst-dh</version>
     <packaging>jar</packaging>
     <name>SnakeYAML</name>
     <description>YAML 1.1 parser and emitter for Java</description>
@@ -32,7 +32,8 @@
         <url>https://github.com/lsst-camera-dh/snakeyaml</url>
         <connection>scm:git:git://github.com/lsst-camera-dh/snakeyaml.git</connection>
         <developerConnection>scm:git:ssh://git@github.com/lsst-camera-dh/snakeyaml.git</developerConnection>
-    </scm>
+      <tag>snakeyaml-1.15-lsst-dh</tag>
+  </scm>
 
 
     <mailingLists>
