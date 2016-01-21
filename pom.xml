@@ -3,7 +3,7 @@
     <parent>
         <groupId>org.lsst.camera</groupId>
         <artifactId>org-lsst-camera-maven-project-jar</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
+        <version>1.0.0</version>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
@@ -27,6 +27,13 @@
             <url>http://srs.slac.stanford.edu/nexus/content/groups/lsst-dh-maven2-public/</url>
         </repository>
     </repositories>
+
+    <scm>
+        <url>https://github.com/lsst-camera-dh/snakeyaml</url>
+        <connection>scm:git:git://github.com/lsst-camera-dh/snakeyaml.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/lsst-camera-dh/snakeyaml.git</developerConnection>
+    </scm>
+
 
     <mailingLists>
         <mailingList>
