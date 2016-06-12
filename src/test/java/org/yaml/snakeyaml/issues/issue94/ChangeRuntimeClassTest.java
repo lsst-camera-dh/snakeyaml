@@ -45,7 +45,7 @@ public class ChangeRuntimeClassTest {
         assertEquals("Matt", loadedEntity.getName());
 
         // The expectation below is from having intercepted setNickName() with
-        // the artifical subclass and
+        // the artificial subclass and
         // performed the calculation.
         assertEquals("JJ-Java", loadedEntity.getNickName());
         assertEquals(EntityLoadingProxy.class, loadedEntity.getClass());

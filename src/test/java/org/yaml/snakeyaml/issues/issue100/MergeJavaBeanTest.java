@@ -119,7 +119,7 @@ public class MergeJavaBeanTest extends TestCase {
         Data first = (Data) list.get(0);
         assertEquals(11, first.getAge());
         assertEquals("id123", first.getId());
-        // Second object is map with a diffrent id
+        // Second object is map with a different id
         Map<?, ?> second = (Map<?, ?>) list.get(1);
         assertEquals(11, second.get("age"));
         assertEquals("id456", second.get("id"));
